@@ -8,4 +8,4 @@ No macOS ou Linux:
 
 source nome-do-ambiente/bin/activate
 
-Após ativar o ambiente virtual, o nome do ambiente será exibido no seu terminal.
+Após ativar o ambiente virtual, o nome do ambiente será exibido no seu terminal
