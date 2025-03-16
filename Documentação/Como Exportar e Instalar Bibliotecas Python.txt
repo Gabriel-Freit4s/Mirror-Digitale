@@ -1,0 +1,11 @@
+Este guia descreve o processo de exportação de bibliotecas instaladas em um ambiente Python e a instalação delas em outro ambiente virtual.]
+
+Gere o arquivo requirements.txt com as bibliotecas instaladas: No terminal, execute:
+
+pip freeze > requirements.txt
+
+Isso criará um arquivo chamado requirements.txt no diretório atual, listando todas as bibliotecas e suas versões.
+
+Instale as bibliotecas do arquivo requirements.txt, no terminal, com o ambiente virtual ativado, execute:
+
+pip install -r requirements.txt

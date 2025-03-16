@@ -2,10 +2,10 @@ Para ativar o ambiente python basta usar o comando:
 
 No Windows:
 
-mirror-digitale\Scripts\activate
+nome-do-ambiente\Scripts\activate
 
 No macOS ou Linux:
 
-source mirror-digitale/bin/activate
+source nome-do-ambiente/bin/activate
 
 Após ativar o ambiente virtual, o nome do ambiente será exibido no seu terminal.
