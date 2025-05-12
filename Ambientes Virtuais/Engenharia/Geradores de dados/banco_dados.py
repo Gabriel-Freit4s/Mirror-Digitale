@@ -4,7 +4,6 @@ import mysql.connector
 import schedule
 from datetime import datetime
 
-# --- Configurações de conexão MySQL ---
 DB_CONFIG = {
     'host': 'localhost',
     'port': 3306,
@@ -17,14 +16,14 @@ CSV_PATH = 'plantas.csv'
 
 def atualizar_mysql():
     try:
-        # 1. Lê o CSV
+        
         df = pd.read_csv(CSV_PATH, parse_dates=['Data de Entrada'])
 
-        # 2. Conecta ao banco
+        
         conn = mysql.connector.connect(**DB_CONFIG)
         cursor = conn.cursor()
 
-        # 3. Query corrigida com placeholders e nomes de colunas compatíveis
+        
         sql = """
         INSERT INTO plantas (
             ID, Nome_da_Planta, Tipo_de_Planta, Saude_da_Planta,
@@ -46,7 +45,7 @@ def atualizar_mysql():
             Estado_Atual = VALUES(Estado_Atual);
         """
 
-        # 4. Mapeamento corrigido dos nomes das colunas
+        
         for row in df.to_dict(orient='records'):
             params = {
                 'ID': row['ID'],
@@ -73,12 +72,12 @@ def atualizar_mysql():
             cursor.close()
             conn.close()
 
-# --- Configuração do agendador ---
+
 schedule.every(1).minutes.do(atualizar_mysql)
 
 if __name__ == "__main__":
     print("Serviço de sincronização MySQL-CSV iniciado...")
-    atualizar_mysql()  # Execução inicial
+    atualizar_mysql()  
     
     while True:
         schedule.run_pending()
