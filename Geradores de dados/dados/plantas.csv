@@ -1,0 +1,32 @@
+﻿ID,Nome da Planta,Tipo de Planta,Saúde da Planta,Acuracia saude,Data de Entrada,Posição de armazenagem,Setor,Estado Atual
+1,Orquídea,Ornamental,Boa,95,2024-01-10 00:00:00.000000,Setor A,A1,Vendida
+2,Rosa,Ornamental,Excelente,96,2024-02-15 00:00:00.000000,Setor A,A2,No Viveiro
+3,Samambaia,Folhagem,Ruim,99,2024-03-12 00:00:00.000000,Setor A,A3,Morta
+4,Cacto,Suculenta,Ruim,94,2024-04-18 00:00:00.000000,Setor B,B1,Danificada
+5,Bromélia,Ornamental,Boa,98,2024-05-22 00:00:00.000000,Setor B,B2,Vendida
+6,Tulipa,Ornamental,Excelente,94,2024-06-30 00:00:00.000000,Setor B,B3,No Viveiro
+7,Jasmim,Ornamental,Boa,86,2024-07-05 00:00:00.000000,Setor C,C1,No Viveiro
+8,Hortênsia,Ornamental,Boa,90,2024-08-12 00:00:00.000000,Setor C,C2,Danificada
+9,Girassol,Ornamental,Excelente,89,2024-01-20 00:00:00.000000,Setor C,C3,No Viveiro
+10,Lavanda,Aromática,Boa,91,2024-02-25 00:00:00.000000,Setor D,D1,Vendida
+11,Alecrim,Aromática,Boa,99,2024-03-05 00:00:00.000000,Setor D,D2,No Viveiro
+12,Suculenta,Suculenta,Excelente,88,2024-03-15 00:00:00.000000,Setor D,D3,No Viveiro
+13,Begônia,Ornamental,Boa,86,2024-04-01 00:00:00.000000,Setor E,E1,Vendida
+14,Azaleia,Ornamental,Ruim,91,2024-04-10 00:00:00.000000,Setor E,E2,Morta
+15,Lírio,Ornamental,Excelente,85,2024-05-05 00:00:00.000000,Setor E,E3,Vendida
+16,Ipê,Árvore,Boa,93,2024-06-01 00:00:00.000000,Setor F,F1,No Viveiro
+17,Margarida,Ornamental,Boa,100,2024-06-15 00:00:00.000000,Setor F,F2,No Viveiro
+18,Cravo,Ornamental,Ruim,97,2024-07-01 00:00:00.000000,Setor F,F3,Danificada
+19,Bonsai,Árvore,Excelente,96,2024-07-10 00:00:00.000000,Setor G,G1,No Viveiro
+20,Violeta,Ornamental,Ruim,92,2024-08-01 00:00:00.000000,Setor G,G2,Danificada
+21,Dália,Ornamental,Boa,97,2024-08-10 00:00:00.000000,Setor G,G3,Vendida
+22,Crisântemo,Ornamental,Excelente,94,2024-09-01 00:00:00.000000,Setor H,H1,No Viveiro
+23,Camélia,Ornamental,Ruim,96,2024-09-10 00:00:00.000000,Setor H,H2,Morta
+24,Petúnia,Ornamental,Excelente,100,2024-10-01 00:00:00.000000,Setor H,H3,No Viveiro
+25,Hibisco,Ornamental,Boa,90,2024-10-10 00:00:00.000000,Setor I,I1,Vendida
+26,Gerânio,Ornamental,Boa,86,2024-11-01 00:00:00.000000,Setor I,I2,No Viveiro
+27,Alfazema,Aromática,Excelente,99,2024-11-10 00:00:00.000000,Setor I,I3,No Viveiro
+28,Bougainvillea,Ornamental,Boa,97,2024-12-01 00:00:00.000000,Setor J,J1,Danificada
+29,Palmeira,Árvore,Ruim,100,2024-12-10 00:00:00.000000,Setor J,J2,Vendida
+30,Cibotium,Folhagem,Ruim,81,2024-12-15 00:00:00.000000,Setor J,J3,Danificada
+31,Samambaia,Folhagem,Ruim,96,2025-05-12 11:30:49.754126,Setor H,H1,No Viveiro

@@ -12,7 +12,7 @@ DB_CONFIG = {
     'database': 'mirror_digitale'
 }
 
-CSV_PATH = 'plantas.csv'
+CSV_PATH = 'Geradores de dados/dados/plantas.csv'
 
 def atualizar_mysql():
     try:

@@ -76,7 +76,7 @@ def parse_mixed_date(s) -> pd.Timestamp:
     else:
         return pd.to_datetime(s)
     
-CSV_FILE = "plantas.csv"
+CSV_FILE = "Geradores de dados/dados/plantas.csv"
 INTERVAL_SEC = 10
 
 initial_data = [
